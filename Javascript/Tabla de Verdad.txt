@@ -1,0 +1,35 @@
+Tabla de Verdad
+p=dulce; q= manjar
+
+
+&& and Y
+
+
+p ^ q
+2   2 = 4; 2^3= 2*2*2 = 8; 2^4=16
+V   V = V // verdadero y verdadero es V, todo lo demás es falso
+V   F = F
+F   V = F
+F   F = F
+
+p q r
+V V V= V
+V V F
+V F V
+V F F
+F V V
+F V F
+F F V
+F F F
+
+
+v, ||, o, or, ord
+
+//falso y falso es F, todo lo demás es verdadero
+
+p v q
+V   V = V
+V   F = V
+F   V = V
+F v F = F
+
