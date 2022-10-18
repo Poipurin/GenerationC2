@@ -33,3 +33,12 @@ V   F = V
 F   V = V
 F v F = F
 
+ser o no ser = V || F = VERDADERO
+ser = v
+no ser = ¬V -> F
+
+yo estudio programación y leo manga
+
+¬p= yo NO estudio programación
+q=  leo manga
+
