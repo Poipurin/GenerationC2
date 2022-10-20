@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso</title>
+</head>
+<body>
+    <script>
+        /* ## Operaciones básicas, Tipos de datos, Prompt y Alert
+
+- Escribir un programa que muestre un prompt donde el usuario ingresa un número, 
+luego muestra otro prompt pidiendo otro número, 
+finalmente el programa muestra una alerta con el resultado de la suma. */
+
+    /* var num1 = parseInt(prompt("ingresa un numero"));
+    var num2 = parseInt(prompt("ingresa un numero"));
+     alert(num1+num2); */
+     /* var num1 = parseInt(prompt("ingresa un numero"));
+     var num2 = parseInt(prompt("ingresa un numero"));
+     var sum = num1 + num2;
+     alert("La suma es " + sum); */
+
+
+     /* - Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y 
+     el programa muestre en una alerta la temperatura en Fahrenheit. */
+
+    /*  var gradosC = parseInt(prompt("ingresa la tempeatua en °C"));
+     var F = (gradosC * 9/5) + 32;
+     alert("En F " + F); */
+
+     /* - Pedir un número a un usuario a través de un prompt 
+     y luego dividirlo por 10, ejemplo: 5 / 10  igual 0.5 */
+
+     /* var numUsu = parseInt(prompt("Ingresa un número"));
+     var div = numUsu / 10;
+     alert("Tu número es " + div); */
+
+     /* - Si a = [1,2,3] crear un script que determine demuestre un alert del tipo de dato de a. */
+
+     /* var a = "Hola";
+     alert(typeof a); */
+
+     /* ## If and else
+
+    - Crear un programa que determine si un número introducido en un Prompt es par o no, la respuesta será mostrada en una alerta. */
+
+
+    // Obtener edad
+/*     var edad = 11;
+
+	if(edad < 13) {
+		console.log("Es niño");
+	}else if(edad > 18 ){
+	 	console.log("Adulto");
+	} else{
+	 	console.log("Es adolecente");
+	} */
+
+    /* - Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "café", "rosa"] 
+    determinar si un color introducido por el usuario se encuentra dentro del array o no. */
+
+    var colores = ["azul", "amarillo", "rojo", "verde", "café", "rosa"];
+    var mostrarC = prompt("Disponibilidad de color");
+    var match = false;
+    for (let i = 0; i < colores.length; i++) {
+        if (colores==[i]){
+            match = true;}
+        }
+
+            if (match ==true){
+            alert("El color está disponible")
+        } else if (match == false)
+            alert("El color no se encuentra disponible")
+        
+        
+    
+
+
+
+
+
+    
+
+
+    </script>
+    
+</body>
+</html>
