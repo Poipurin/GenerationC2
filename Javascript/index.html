@@ -1,44 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javadabadu</title>
+    <script src="js/menu.js"></script>
+    <title>JavaScript</title>
     <script>
         //comentario
         /*más de una línea de comentario 
         */
-       console.log("hola mundo");
-       console.log ("qué tal?");
-       console.log ("Hampter");
+        console.log("hola mundo");
+        console.log("qué tal?");
+        console.log("Hampter");
 
-       var nombre ="Bárbara";
-       var apellido ="Pino";
-       var edad = 29
-       var direccion = "San Josemaría Escrivá de Balaguer"
-       var numerodir = 14713
 
-       console.log("● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●");
-       console.log("●", "Nombre: " ,nombre,apellido,"                                ●");
-       console.log("●", "Edad: ", edad,"                                            ●")
-       console.log("●", "Dirección: ", direccion, numerodir,"  ●")
-       console.log("● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●");
+        /*Variables*/
 
-       /*Variables*/
+        //Espacio en memoria que puede cambiar en el tiempo
+        // Tipos de variables: String, number, boolean, null
+        // el tipo de variable, era definido por su contenido (typeof )
+        // el nombre de la variable DEBE ser significativo.
 
-       //Espacio en memoria que puede cambiar en el tiempo
-       // Tipos de variables: String, number, boolean, null
-       // el tipo de variable, era definido por su contenido (typeof )
-       // el nombre de la variable DEBE ser significativo.
-       
-       //no hacer
-       /*
-       var KAjnSAhvsj -> no, es muy peligroso 
-       var la casa -> no agregar espacio 
-       
-       */
-      
+        //no hacer
+        /*
+        var KAjnSAhvsj -> no, es muy peligroso 
+        var la casa -> no agregar espacio 
+        
+        */
+
         /*Hacer
         var laCasa
         var la_casa 
@@ -53,51 +44,51 @@
 
         /* Operatoria de variables*/
 
-        var num_1=24;
-        var num_2=35;
-        var num_3=11;
+        var num_1 = 24;
+        var num_2 = 35;
+        var num_3 = 11;
 
-        var totalSuma = num_1 + num_2 + num_3; 
+        var totalSuma = num_1 + num_2 + num_3;
         //var total = 24 + 35 + 11 // var total = 70
-       console.log(totalSuma);
+        console.log(totalSuma);
 
-       var totalResta = num_1 - num_2 - num_3;
-       console.log(totalResta);
+        var totalResta = num_1 - num_2 - num_3;
+        console.log(totalResta);
 
-       //sobre escribir la variable 
-       var edadAriel= 28; //creando y asignando
-       edadAriel=29; //sobre escribir
+        //sobre escribir la variable 
+        var edadAriel = 28; //creando y asignando
+        edadAriel = 29; //sobre escribir
 
-       var numero = 2;
-       numero = numero + 3; //numero = 2 + 3; numero = 5;
+        var numero = 2;
+        numero = numero + 3; //numero = 2 + 3; numero = 5;
 
-       numero+= 4; //numero = 5 + 4;
-       console.log("el número es", numero);// el numero es 9;
+        numero += 4; //numero = 5 + 4;
+        console.log("el número es", numero);// el numero es 9;
 
-       numero-= 5;//numero = -5
-       console.log("el numero es", numero);// el numero es 4;
+        numero -= 5;//numero = -5
+        console.log("el numero es", numero);// el numero es 4;
 
-       console.log(numero--); 88
-       
-       /*decrementar
-       numero = numero - 1
-       numero -= 1
-       numero--*/
+        console.log(numero--); 88
 
-       console.log(numero++);
-       
+        /*decrementar
+        numero = numero - 1
+        numero -= 1
+        numero--*/
 
-       /* incrementando
+        console.log(numero++);
+
+
+        /* incrementando
         numero = numero +1
         numero += 1
         numero++
-        */
+         */
 
         /*Operaciones básicas*/
 
-        var num1=8765;
-        var num2= 1234;
-        var num3= 0;
+        var num1 = 8765;
+        var num2 = 1234;
+        var num3 = 0;
 
         console.log("Operaciones básicas / Grupo 3")
 
@@ -122,21 +113,21 @@
         console.log("El resultado de la División es", totalDivision);
 
         console.log("    ⢀⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀              ")
-console.log( "   ⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀             ")
-console.log("    ⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀             ")
-console.log( "   ⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆⠀⠀⠀⠀⠀⠀⠀             ")
-console.log( "   ⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆            ")
-console.log( "   ⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠁⠸⣼⡿           ")
-console.log( "   ⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉⠀⠀⠀⠀⠀            ")
-console.log( "   ⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀            ")
-console.log( "   ⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀            ")
-console.log( "   ⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀             ")
-console.log( "   ⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀             ")
-console.log( "   ⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀             ")
-console.log( "   ⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀             ")
-console.log( "   ⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀             " )
-console.log( "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠉                             ")
-console.log( "                                                       ")
+        console.log("   ⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀             ")
+        console.log("    ⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀             ")
+        console.log("   ⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆⠀⠀⠀⠀⠀⠀⠀             ")
+        console.log("   ⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆            ")
+        console.log("   ⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠁⠸⣼⡿           ")
+        console.log("   ⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉⠀⠀⠀⠀⠀            ")
+        console.log("   ⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀            ")
+        console.log("   ⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀            ")
+        console.log("   ⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀             ")
+        console.log("   ⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀             ")
+        console.log("   ⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀             ")
+        console.log("   ⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀             ")
+        console.log("   ⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀             ")
+        console.log("   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠉                             ")
+        console.log("                                                       ")
 
 
 
@@ -147,7 +138,9 @@ console.log( "                                                       ")
 
     </script>
 </head>
+
 <body>
 
 </body>
+
 </html>
